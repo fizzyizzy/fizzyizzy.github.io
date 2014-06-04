@@ -1,0 +1,23 @@
+body {
+	background-color:#D460CF;
+	padding:0;
+	margin:0;
+}
+
+.header h1 {
+	font-variant:small-caps;
+	color:#FFFFFF;
+}
+
+.wrapper {
+	background-color:#7F207B;
+	width:1024px;
+	margin:auto;
+	padding:15px;
+	height:100%;
+}
+
+.content p {
+	color:#E1FA71;
+	font-size:1.6em;
+}
