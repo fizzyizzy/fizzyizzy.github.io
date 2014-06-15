@@ -1,23 +1,78 @@
+
+@font-face {
+	font-family:'SITEFONT';
+	src:url('../fonts/04B_30__.TTF') format('truetype');
+}
+
 body {
-	background-color:#D460CF;
-	padding:0;
-	margin:0;
-}
-
-.header h1 {
-	font-variant:small-caps;
-	color:#FFFFFF;
-}
-
-.wrapper {
-	background-color:#7F207B;
-	width:1024px;
-	margin:auto;
-	padding:15px;
+	font-family: Geneva, Tahoma, Verdana, sans-serif;
+	background-color:#84004D;
 	height:100%;
 }
 
-.content p {
-	color:#E1FA71;
-	font-size:1.6em;
+.wrapper {
+	background-color:#E567B1;
+	color:#fff;
+	padding:15px;
+	font-size:1em;
+}
+
+.header {
+	background-color:#390625;
+	height:75px;
+	position:relative;
+	padding:5px;
+}
+
+.header img {
+	position:absolute;
+	bottom:10px;
+	width:50px;
+	height:50px;
+}
+
+.header h1 {
+	position:absolute;
+	bottom:0;
+	left:65px;
+	font-family:'SITEFONT', 'Arial', serif;
+	font-size:3em;
+}
+
+.header .youtube {
+	position:absolute;
+	bottom:5px;
+	right:5px;
+}
+
+.navbar {
+	position:absolute;
+	right:0;
+	bottom:0;
+}
+
+.navbar li {
+	list-style-type:none;
+	display:inline;
+	padding-right:10px;
+}
+
+.content {
+	height:100%;
+	border-top:2px #333 solid;
+	padding-top:10px;
+}
+
+.content article {
+}
+
+.content article img {
+	width:320px;
+	height:240px;
+	padding:5px;
+}
+
+.footer {
+	border-top:2px #333 solid;
+	padding-top:10px;
 }
